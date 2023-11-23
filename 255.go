@@ -28,7 +28,7 @@ func (ms *MyStack) Pop() int {
 	}
 
 	val := ms.values[lenValues-1]
-	ms.values = ms.values[lenValues-2:]
+	ms.values = ms.values[:lenValues-2]
 	return val
 
 }
@@ -38,7 +38,7 @@ func (ms *MyStack) Top() int {
 	if lenValues == 0 {
 		return 0
 	}
-	return ms.values[0]
+	return ms.values[lenValues-1]
 }
 
 func (ms *MyStack) Empty() bool {
