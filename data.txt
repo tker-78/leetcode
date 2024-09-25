@@ -1,13 +1,8 @@
 
-|student_id|subject_name|
-|1|Math|
-|1|Physics|
-|1|Programming|
-|2|Programming|
-|1|Physics|
-|1|Math|
-|13|Math|
-|13|Programming|
-|13|Physics|
-|2|Math|
-|1|Math|
+|id|name|department|managerId|
+|101|John|A|null|
+|102|Dan|A|101|
+|103|James|A|101|
+|104|Amy|A|101|
+|105|Anne|A|101|
+|106|Ron|B|101|
