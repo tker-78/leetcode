@@ -1,2 +1,3 @@
 .venv
 *_checkpoints.ipynb
+.ipynb_checkpoints*
