@@ -1,8 +1,5 @@
 
-|id|name|department|managerId|
-|101|John|A|null|
-|102|Dan|A|101|
-|103|James|A|101|
-|104|Amy|A|101|
-|105|Anne|A|101|
-|106|Ron|B|101|
+|match_id|host_team|guest_team|host_goals|guest_goals|
+|1|10|20|0|0|
+|2|10|30|2|2|
+|3|20|30|1|1|
